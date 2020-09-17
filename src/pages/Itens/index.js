@@ -1,10 +1,12 @@
 import React from 'react';
 import { View } from 'react-native';
+import Container from '../../components/Container';
+import Header from '../../components/Header';
 
-export default function Itens () {
+export default function Itens() {
     return (
-        <View>
-            
-        </View>
+        <Container>
+            <Header />
+        </Container>
     )
 }
